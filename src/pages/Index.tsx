@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Badge } from "@/components/ui/badge"
 import Icon from "@/components/ui/icon"
+import BeforeAfterGallery from "@/components/BeforeAfterGallery"
 
 const Index = () => {
   const services = [
@@ -30,6 +31,14 @@ const Index = () => {
       description: "Решение проблем перхоти, зуда и раздражения",
       price: "от 3 200 ₽",
       icon: "Star"
+    }
+  ]
+
+  const beforeAfterImages = [
+    {
+      before: "https://cdn.poehali.dev/files/1992c72a-34e6-43a5-8304-b862fa80ffc3.png",
+      after: "https://cdn.poehali.dev/files/1992c72a-34e6-43a5-8304-b862fa80ffc3.png",
+      title: "Восстановление поврежденных волос"
     }
   ]
 
@@ -193,7 +202,10 @@ const Index = () => {
               Результаты до и после моих процедур
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          
+          <BeforeAfterGallery images={beforeAfterImages} />
+          
+          <div className="grid md:grid-cols-3 gap-8 mt-12">
             <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-pink-100 to-pink-200">
                 <img 
