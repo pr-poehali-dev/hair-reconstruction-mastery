@@ -356,7 +356,7 @@ const Index = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Контакты</h4>
               <div className="space-y-2 text-gray-300">
-                <p>📍 Москва</p>
+                <p>📍 Москва, м. Новокосино</p>
                 <p>📞 +7 (988) 486-49-79</p>
                 <p>📱 @shirinbolottt</p>
                 <p>⏰ Пн-Сб: 9:00-20:00</p>
