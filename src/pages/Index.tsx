@@ -333,9 +333,15 @@ const Index = () => {
                 Мастер по реконструкции волос с многолетним опытом работы
               </p>
               <div className="flex space-x-4">
-                <Icon name="Phone" size={20} className="text-[#E91E63]" />
-                <Icon name="Instagram" size={20} className="text-[#E91E63]" />
-                <Icon name="MessageCircle" size={20} className="text-[#E91E63]" />
+                <a href="tel:+79884864979" className="text-[#E91E63] hover:text-[#C2185B] transition-colors">
+                  <Icon name="Phone" size={20} />
+                </a>
+                <a href="https://instagram.com/shirinbolottt" target="_blank" rel="noopener noreferrer" className="text-[#E91E63] hover:text-[#C2185B] transition-colors">
+                  <Icon name="Instagram" size={20} />
+                </a>
+                <a href="https://wa.me/79884864979" target="_blank" rel="noopener noreferrer" className="text-[#E91E63] hover:text-[#C2185B] transition-colors">
+                  <Icon name="MessageCircle" size={20} />
+                </a>
               </div>
             </div>
             <div>
@@ -350,10 +356,10 @@ const Index = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Контакты</h4>
               <div className="space-y-2 text-gray-300">
-                <p>📍 Москва, ул. Примерная, 123</p>
-                <p>📞 +7 (999) 123-45-67</p>
+                <p>📍 Москва</p>
+                <p>📞 +7 (988) 486-49-79</p>
+                <p>📱 @shirinbolottt</p>
                 <p>⏰ Пн-Сб: 9:00-20:00</p>
-                <p>📧 info@bolotova-hair.ru</p>
               </div>
             </div>
           </div>
